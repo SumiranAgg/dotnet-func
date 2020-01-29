@@ -5,7 +5,7 @@
     <RootNamespace>dotnet_func</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="2.0.1" />
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="2.2.3" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
