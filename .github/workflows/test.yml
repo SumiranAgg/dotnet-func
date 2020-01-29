@@ -1,9 +1,6 @@
 name: Linux_Python_Workflow
 
-on:
-  push:
-    branches:
-    - master
+on: [push]
 
 jobs:
   build-and-deploy:
