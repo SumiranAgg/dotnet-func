@@ -10,9 +10,9 @@ using Newtonsoft.Json;
 
 namespace dotnet_func
 {
-    public static class mytrigger
+    public static class trigger
     {
-        [FunctionName("mytrigger")]
+        [FunctionName("trigger")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
             ILogger log)

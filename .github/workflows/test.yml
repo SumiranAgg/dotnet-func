@@ -12,7 +12,7 @@ jobs:
     - name: Setup Dotnet 2.2.300
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '2.2.300'
+        dotnet-version: '3.1.100'
 
     - name: 'Run dotnet build'
       shell: bash
